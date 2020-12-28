@@ -1,0 +1,71 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+    font-size: 1em;
+    text-decoration: none;
+}
+div.header{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+.container{
+    max-width: 100%;
+    text-align: center;
+}
+.col-left{
+    background-color: rgba(0, 0, 0, 0.8);
+    /* border-top: 5px solid rgba(150, 0, 0, 1); */
+}
+.col-p{
+    padding: 20px;
+    min-width: 150px;
+    border: 0px solid red;
+}
+body,
+	html {
+		max-height: 100vh;
+		margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        background-color: #2e2e2e;
+	}
+
+	.bgimg-1{
+		position: relative;
+		opacity: 0.95;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+
+	.bgimg-1 {
+        background-image: url("img/cd-banner.jpeg");
+        width: auto;
+		min-height: 100vh;
+	}
+
+	h3 {
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		/* font: 20px "Lato", sans-serif; */
+		color: #111;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .container-main{
+            border: 0px solid red;
+        }
+      }
+      div.header{
+          font-size: 1.4em;
+      }
+    
+.icons{
+    width: 50px;
+}
